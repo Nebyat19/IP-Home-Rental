@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Font Awesome 5 CDN link to add icones -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+	<title>Sign Up</title>
+	<link rel="stylesheet" href="signup.css">
+</head>
+<body>
+	<div>
+		<form action="" method="get"></form>
+			<fieldset>
+				<h1>Sign Up</h1>
+				<div>
+					<p><label for="userName">User Name </label></p>
+					<input type="text" id="userName" autocomplete="off" required placeholder="Enter your user name" > 
+				</div>
+				<div>
+					<p><label for="email">Email Address</label></p>
+					<input type="email" id="email" name="email" required autocomplete="off" placeholder="Enter your email">
+				</div>
+				<div>
+					<p><label for="password">Password</label></p>
+					<input type="password" id="password" required placeholder="Enter your password" pattern="[a-z0-5]{8,}" >
+				</div>
+				<div>
+					<p><label for="password">Confirm Your Password</label></p>
+					<input type="password" id="password" required placeholder="Enter your password" pattern="[a-z0-5]{8,}" >
+				</div>
+				<p>	By selecting  Agree and continue, I agree to Adar's 
+		Terms of Service, Payments Terms of Service, and Nondiscrimination Policy and acknowledge the Privacy Policy.</p>
+				<button type="button" id="btn">Agree and Continue</button>
+				
+
+				  
+				<!-- Adding social icones -->
+				<div> 
+					<h4>Or Continue With</h4>
+				<div><button type="button" ><i class="fa-brands fa-facebook"></i>Continue with Facebook</button></div>
+				<div><button type="button" ><i class="fa-brands fa-google"></i>Continue with Google</button></div>
+				<div><button type="button" ><i class="fa-brands fa-apple"></i>Continue with Apple</button></div>
+				</div>
+				<p>Already a member? <a href="login.html">Log in</a></p>
+			</fieldset>
+		</form>
+
+	</div>
+</body>
+</html>
