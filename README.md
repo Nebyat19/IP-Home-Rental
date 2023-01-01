@@ -6,6 +6,6 @@ Home rental
 
 ⭐ ⭐ ⭐ ⭐ ⭐ 
 <br>
- <img src="src/images/adar1.png" alt="">
+ <img src="src/images/adra1.png" alt="">
  <br>
   <img src="src/images/adar2.png" alt="">
