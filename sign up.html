@@ -1,53 +1,193 @@
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- Font Awesome 5 CDN link to add icones -->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-	<title>Sign Up</title>
-	<link rel="stylesheet" href="signup.css">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Adar</title>
 </head>
 <body>
-	<div>
-		<form action="" method="get"></form>
-			<fieldset>
-				<h1>Sign Up</h1>
-				<div>
-					<p><label for="userName">User Name </label></p>
-					<input type="text" id="userName" autocomplete="off" required placeholder="Enter your user name" > 
-				</div>
-				<div>
-					<p><label for="email">Email Address</label></p>
-					<input type="email" id="email" name="email" required autocomplete="off" placeholder="Enter your email">
-				</div>
-				<div>
-					<p><label for="password">Password</label></p>
-					<input type="password" id="password" required placeholder="Enter your password" pattern="[a-z0-5]{8,}" >
-				</div>
-				<div>
-					<p><label for="password">Confirm Your Password</label></p>
-					<input type="password" id="password" required placeholder="Enter your password" pattern="[a-z0-5]{8,}" >
-				</div>
-				<p>	By selecting  Agree and continue, I agree to Adar's 
-		Terms of Service, Payments Terms of Service, and Nondiscrimination Policy and acknowledge the Privacy Policy.</p>
-				<button type="button" id="btn">Agree and Continue</button>
-				
+<table id="signup" width="100%" height="600px" cellpadding="0" cellspacing="0" background="src/images/covers/signup.jpg"
+ background-size="cover">
+		<tr>
+			<td>
+				<table border="0" cellpadding="15"
+					cellspacing="0" width="80%" align="center">
+					<tr>
+						<td>
+							<center>
+								<font face="Verdana" size="7" color="#00F2DE">
+									Sign Up
+								</font>
+								<hr color="#FFFF00" width="90">
+							</center>
+							
+						</td>
+					</tr>
 
-				  
-				<!-- Adding social icones -->
-				<div> 
-					<h4>Or Continue With</h4>
-				<div><button type="button" ><i class="fa-brands fa-facebook"></i>Continue with Facebook</button></div>
-				<div><button type="button" ><i class="fa-brands fa-google"></i>Continue with Google</button></div>
-				<div><button type="button" ><i class="fa-brands fa-apple"></i>Continue with Apple</button></div>
-				</div>
-				<p>Already a member? <a href="login.html">Log in</a></p>
-			</fieldset>
-		</form>
+					<tr>
+						<td align="center" valign="top">
+							<table border="0" width="50%" cellspacing="2" cellpadding="5"
+								cellspacing="0" align="center" bgcolor="#99ffcc">
+								<tr>
+									<td width="40%">
+										<font face="Verdana" size="4"
+											color="#088F8F">
+											Username
+										</font>
+									</td>
+									<td width="40%">
+										<font face="Verdana" size="4"
+											color="#ffffff">
+											<input type="text" size="40">
+										</font>
+									</td>
+								</tr>
+                                <tr>
+									<td width="40%">
+										<font face="Verdana" size="4"
+											color="#088F8F">
+											Email
+										</font>
+									</td>
+									<td width="40%">
+										<font face="Verdana" size="4"
+											color="#ffffff">
+											<input type="email" size="40">
+										</font>
+									</td>
+								</tr>
+								<tr>
+									<td width="10%">
+										<font face="Verdana" size="4"
+											color="#088F8F">
+											Password
+										</font>
+									</td>
+									<td width="60%">
+										<font face="Verdana" size="4"
+											color="#ffffff">
+											<input type="password" size="40">
+										</font>
+									</td>
+								</tr>
+                                <tr>
+									<td width="10%">
+										<font face="Verdana" size="4"
+											color="#088F8F">
+										Confirm	Password
+										</font>
+									</td>
+									<td width="60%">
+										<font face="Verdana" size="4"
+											color="#ffffff">
+											<input type="password" size="40">
+										</font>
+									</td>
+								</tr>
+								
+                                  
+                                    <tr>
+                                        <td colspan="2"><p>
+                                            <font face="Verdana" size="4"
+											color="#088F8F">
+                                            User Agreement</font>
+                                            <br>
+                                            <br>
+                                            <font face="Verdana" size="2"
+											color="#b6212f">
+                                            By selecting Agree and continue, I agree to Adar's Terms of Service, Payments Terms of Service, and Nondiscrimination Policy and acknowledge the Privacy Policy.
+                                            </font>  </p>
+                                            <input type="checkbox" name="" id="chk">
+                                       
+                                            <font face="Verdana" size="2"
+											color="#b6212f">
+                                               <a href="ruth"> 
+                                                    <b>
+                                                        <label for="chk"> Agree and Continue</label>
+                                                    </b>
+                                               </a>
+                                               <br>
+                                                <br>
+                                                
+                                            </font>
+                                            <font face="Verdana" size="3"
+											color="black">
+                                                <b>Or Continue With</b> 
+                                            
+                                            </font>
+                                        </td>
+                                    </tr>
+                                  
+                                    <tr>
+                                        <td width="10%" colspan="1">
+                                       <img width="25px" src="image/facebook.png" alt="facebook"
+                                       cellspacing="10px">
+                                       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                       <a href="ruth">
+                                            <font valign="top" color="black" face="Verdana" size="3" >
+                                               
+                                               <b>facebook</b>
+                                            </font>
+                                       </a>
+                                        
+                                        
+                                                <br>
+                                                <br>
+                                        <img width="25px" src="image/google.png" alt="google">
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <a href="ruth">
+                                            <font valign="top" color="black" face="Verdana" size="3" >
+                                               
+                                                <b>google</b>
+                                             </font>
+                                        </a>
+                                        
+                                        <br><br>
+                                        <img width="25px" src="image/apple.png" alt="apple">
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                      
+                                        <a href="ruth">
+                                            <font valign="top" color="black" face="Verdana" size="3" >
+                                                
+                                                <b>Apple</b>
+                                            </font>
+                                        </a> 
+                                    </td>
+                                 
+                                </tr>
+                                <tr>
+									<td>
+                                        <font face="Verdana" size="3" color="black">
+                                            <label>Already a member?</label>
+                                        </font>
+									</td>
+                                    <td>
 
-	</div>
-</body>
-</html>
+                                        <a href="login.html">
+											<button type="Submit">
+												<font face="Verdana"
+													size="4" color="#088F8F">
+													<b>Login</b>
+												</font>
+											</button>	
+										</a>
+                                    </td>
+
+								</tr>
+							</table>
+						</td>
+
+					</tr>
+					<tr>
+						<td colspan="2">
+							
+							
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+    </body>
+    </html>
